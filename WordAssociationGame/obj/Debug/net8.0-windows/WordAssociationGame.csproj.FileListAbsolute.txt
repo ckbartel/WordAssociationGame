@@ -1,0 +1,16 @@
+C:\Users\christianrad238\OneDrive\Desktop\Trie Idea\WordAssociationGame\WordAssociationGame\bin\Debug\net8.0-windows\WordAssociationGame.exe
+C:\Users\christianrad238\OneDrive\Desktop\Trie Idea\WordAssociationGame\WordAssociationGame\bin\Debug\net8.0-windows\WordAssociationGame.deps.json
+C:\Users\christianrad238\OneDrive\Desktop\Trie Idea\WordAssociationGame\WordAssociationGame\bin\Debug\net8.0-windows\WordAssociationGame.runtimeconfig.json
+C:\Users\christianrad238\OneDrive\Desktop\Trie Idea\WordAssociationGame\WordAssociationGame\bin\Debug\net8.0-windows\WordAssociationGame.dll
+C:\Users\christianrad238\OneDrive\Desktop\Trie Idea\WordAssociationGame\WordAssociationGame\bin\Debug\net8.0-windows\WordAssociationGame.pdb
+C:\Users\christianrad238\OneDrive\Desktop\Trie Idea\WordAssociationGame\WordAssociationGame\obj\Debug\net8.0-windows\WordAssociationGame.WordAssociationGame.resources
+C:\Users\christianrad238\OneDrive\Desktop\Trie Idea\WordAssociationGame\WordAssociationGame\obj\Debug\net8.0-windows\WordAssociationGame.csproj.GenerateResource.cache
+C:\Users\christianrad238\OneDrive\Desktop\Trie Idea\WordAssociationGame\WordAssociationGame\obj\Debug\net8.0-windows\WordAssociationGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\christianrad238\OneDrive\Desktop\Trie Idea\WordAssociationGame\WordAssociationGame\obj\Debug\net8.0-windows\WordAssociationGame.AssemblyInfoInputs.cache
+C:\Users\christianrad238\OneDrive\Desktop\Trie Idea\WordAssociationGame\WordAssociationGame\obj\Debug\net8.0-windows\WordAssociationGame.AssemblyInfo.cs
+C:\Users\christianrad238\OneDrive\Desktop\Trie Idea\WordAssociationGame\WordAssociationGame\obj\Debug\net8.0-windows\WordAssociationGame.csproj.CoreCompileInputs.cache
+C:\Users\christianrad238\OneDrive\Desktop\Trie Idea\WordAssociationGame\WordAssociationGame\obj\Debug\net8.0-windows\WordAssociationGame.dll
+C:\Users\christianrad238\OneDrive\Desktop\Trie Idea\WordAssociationGame\WordAssociationGame\obj\Debug\net8.0-windows\refint\WordAssociationGame.dll
+C:\Users\christianrad238\OneDrive\Desktop\Trie Idea\WordAssociationGame\WordAssociationGame\obj\Debug\net8.0-windows\WordAssociationGame.pdb
+C:\Users\christianrad238\OneDrive\Desktop\Trie Idea\WordAssociationGame\WordAssociationGame\obj\Debug\net8.0-windows\WordAssociationGame.genruntimeconfig.cache
+C:\Users\christianrad238\OneDrive\Desktop\Trie Idea\WordAssociationGame\WordAssociationGame\obj\Debug\net8.0-windows\ref\WordAssociationGame.dll
