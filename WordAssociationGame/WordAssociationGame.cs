@@ -1,15 +1,18 @@
 using System.ComponentModel.Design;
 using System.Text;
+using System.Windows.Forms;
 
 namespace WordAssociationGame
 {
     public partial class WordAssociationGame : Form
     {
         private const int SEED = 1;
-        private Random _rng = new Random(SEED);
+        private Random _rng = new Random(); // new Random(SEED);
         private Trie _root = new();
         private string _wordString;
         private Trie _wordTrie;
+        private HashSet<Guess> _guesses = new();
+        int _lettersRevealed = 0;
         public WordAssociationGame()
         {
             InitializeComponent();
@@ -21,6 +24,7 @@ namespace WordAssociationGame
             {
                 using (StreamReader sr = new StreamReader(uxOpenFileDialog.FileName))
                 {
+                    _root = new();
                     int numWords = Convert.ToInt32(sr.ReadLine());
                     Trie[] words = new Trie[numWords];
                     for (int i = 0; i < numWords; i++)
@@ -55,11 +59,27 @@ namespace WordAssociationGame
             StringBuilder sb = new StringBuilder();
             _wordTrie = _root.GetRandomWord(sb, _rng);
             _wordString = sb.ToString();
+            uxHint.Text = "";
+            for (int i = 0; i < _wordString.Length; i++)
+            {
+                uxHint.Text += "_ ";
+            }
         }
 
-        private void RevealWordClick(object? sender, EventArgs e)
+        private void RevealLetterClick(object? sender, EventArgs e)
         {
-            uxGuessResult.Text = $"The word is: {_wordString}";
+            _lettersRevealed = (_lettersRevealed == _wordString.Length) ? _lettersRevealed : _lettersRevealed + 1;
+            uxHint.Text = "";
+            int i;
+            for (i = 0; i < _lettersRevealed; i++)
+            {
+                uxHint.Text += _wordString[i] + " ";
+            }
+            for (;i < _wordString.Length; i++)
+            {
+                uxHint.Text += "_ ";
+            }
+
         }
 
         private void GuessClick(object? sender, EventArgs e)
@@ -75,12 +95,34 @@ namespace WordAssociationGame
             {
                 GenerateWord();
                 MessageBox.Show("Correct!");
+                _guesses.Clear();
+                uxGuesses.DataSource = null;
+                _lettersRevealed = 0;
             }
             else
             {
                 uxGuessResult.Text = $"Similarity Rank: {result}";
+                AddGuess(guess, (int)result);
             }
 
+        }
+
+        private void AddGuess(string word, int similarity)
+        {
+            _guesses.Add(new Guess(word, similarity));
+
+            var sorted = _guesses.OrderByDescending(g => -1 * g.Similarity).ToList();
+
+            uxGuesses.DataSource = null;
+            uxGuesses.DataSource = sorted;
+        }
+
+        private void OnEnter(object? sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                GuessClick(null, new());
+            }
         }
     }
 }

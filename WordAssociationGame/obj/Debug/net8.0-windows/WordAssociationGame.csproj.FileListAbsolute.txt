@@ -14,3 +14,4 @@ C:\Users\christianrad238\OneDrive\Desktop\Trie Idea\WordAssociationGame\WordAsso
 C:\Users\christianrad238\OneDrive\Desktop\Trie Idea\WordAssociationGame\WordAssociationGame\obj\Debug\net8.0-windows\WordAssociationGame.pdb
 C:\Users\christianrad238\OneDrive\Desktop\Trie Idea\WordAssociationGame\WordAssociationGame\obj\Debug\net8.0-windows\WordAssociationGame.genruntimeconfig.cache
 C:\Users\christianrad238\OneDrive\Desktop\Trie Idea\WordAssociationGame\WordAssociationGame\obj\Debug\net8.0-windows\ref\WordAssociationGame.dll
+C:\Users\christianrad238\OneDrive\Desktop\Trie Idea\WordAssociationGame\WordAssociationGame\obj\Debug\net8.0-windows\WordAssociationGame.sourcelink.json

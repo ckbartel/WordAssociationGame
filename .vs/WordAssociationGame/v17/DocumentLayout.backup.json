@@ -11,8 +11,8 @@
       "RelativeMoniker": "D:0:0:{3F3A3E2E-4D40-4BC4-94ED-E913D290A0BA}|WordAssociationGame\\WordAssociationGame.csproj|solutionrelative:wordassociationgame\\wordassociationgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F3A3E2E-4D40-4BC4-94ED-E913D290A0BA}|WordAssociationGame\\WordAssociationGame.csproj|c:\\users\\christianrad238\\onedrive\\desktop\\trie idea\\wordassociationgame\\wordassociationgame\\trie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F3A3E2E-4D40-4BC4-94ED-E913D290A0BA}|WordAssociationGame\\WordAssociationGame.csproj|solutionrelative:wordassociationgame\\trie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F3A3E2E-4D40-4BC4-94ED-E913D290A0BA}|WordAssociationGame\\WordAssociationGame.csproj|c:\\users\\christianrad238\\onedrive\\desktop\\trie idea\\wordassociationgame\\wordassociationgame\\guess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F3A3E2E-4D40-4BC4-94ED-E913D290A0BA}|WordAssociationGame\\WordAssociationGame.csproj|solutionrelative:wordassociationgame\\guess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +30,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WordAssociationGame.cs",
-              "DocumentMoniker": "C:\\Users\\christianrad238\\OneDrive\\Desktop\\Trie Idea\\WordAssociationGame\\WordAssociationGame\\WordAssociationGame.cs",
-              "RelativeDocumentMoniker": "WordAssociationGame\\WordAssociationGame.cs",
-              "ToolTip": "C:\\Users\\christianrad238\\OneDrive\\Desktop\\Trie Idea\\WordAssociationGame\\WordAssociationGame\\WordAssociationGame.cs",
-              "RelativeToolTip": "WordAssociationGame\\WordAssociationGame.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwDkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T19:43:17.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Trie.cs",
-              "DocumentMoniker": "C:\\Users\\christianrad238\\OneDrive\\Desktop\\Trie Idea\\WordAssociationGame\\WordAssociationGame\\Trie.cs",
-              "RelativeDocumentMoniker": "WordAssociationGame\\Trie.cs",
-              "ToolTip": "C:\\Users\\christianrad238\\OneDrive\\Desktop\\Trie Idea\\WordAssociationGame\\WordAssociationGame\\Trie.cs",
-              "RelativeToolTip": "WordAssociationGame\\Trie.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAowCAAAAAJAAAAAAAAAA==",
+              "Title": "Guess.cs",
+              "DocumentMoniker": "C:\\Users\\christianrad238\\OneDrive\\Desktop\\Trie Idea\\WordAssociationGame\\WordAssociationGame\\Guess.cs",
+              "RelativeDocumentMoniker": "WordAssociationGame\\Guess.cs",
+              "ToolTip": "C:\\Users\\christianrad238\\OneDrive\\Desktop\\Trie Idea\\WordAssociationGame\\WordAssociationGame\\Guess.cs",
+              "RelativeToolTip": "WordAssociationGame\\Guess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T18:07:06.109Z"
+              "WhenOpened": "2025-10-31T17:27:22.145Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -59,11 +47,24 @@
               "Title": "WordAssociationGame.cs [Design]",
               "DocumentMoniker": "C:\\Users\\christianrad238\\OneDrive\\Desktop\\Trie Idea\\WordAssociationGame\\WordAssociationGame\\WordAssociationGame.cs",
               "RelativeDocumentMoniker": "WordAssociationGame\\WordAssociationGame.cs",
-              "ToolTip": "C:\\Users\\christianrad238\\OneDrive\\Desktop\\Trie Idea\\WordAssociationGame\\WordAssociationGame\\WordAssociationGame.cs [Design]",
-              "RelativeToolTip": "WordAssociationGame\\WordAssociationGame.cs [Design]",
+              "ToolTip": "C:\\Users\\christianrad238\\OneDrive\\Desktop\\Trie Idea\\WordAssociationGame\\WordAssociationGame\\WordAssociationGame.cs [Design]*",
+              "RelativeToolTip": "WordAssociationGame\\WordAssociationGame.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-29T18:05:46.3Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WordAssociationGame.cs",
+              "DocumentMoniker": "C:\\Users\\christianrad238\\OneDrive\\Desktop\\Trie Idea\\WordAssociationGame\\WordAssociationGame\\WordAssociationGame.cs",
+              "RelativeDocumentMoniker": "WordAssociationGame\\WordAssociationGame.cs",
+              "ToolTip": "C:\\Users\\christianrad238\\OneDrive\\Desktop\\Trie Idea\\WordAssociationGame\\WordAssociationGame\\WordAssociationGame.cs*",
+              "RelativeToolTip": "WordAssociationGame\\WordAssociationGame.cs*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwEQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:43:17.096Z",
+              "EditorCaption": ""
             }
           ]
         }
